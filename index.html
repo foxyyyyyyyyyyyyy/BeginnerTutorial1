@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservierung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#menu">Menü</a></li>
+                <li><a href="#reservation">Reservierung</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Willkommen im besten Restaurant der Stadt!</h1>
+            <p>Genießen Sie unser köstliches Essen und hervorragenden Service</p>
+        </div>
+    </header>
+    <main>
+        <section id="reservation" class="container">
+            <h2>Reservierung</h2>
+            <form id="reservation-form">
+                <label for="number-of-people">Anzahl der Personen:</label>
+                <input type="number" id="number-of-people" min="1" required>
+                <button type="submit">Preis berechnen</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Restaurant. Alle Rechte vorbehalten.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
