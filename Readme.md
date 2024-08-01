@@ -19,7 +19,7 @@ Nutze nur HTML und CSS keine Frameworks. Nutze folgende Variablen für das CSS u
 Als Bild Platzhalter kannst du folgende URL nutzen:
 
 ```shell
-    https://via.placeholder.com/1500x800
+https://via.placeholder.com/1500x800
 ```
 Die Menüpunkte sollen jeweils auf die sektionen der seite verweisen welche eventuell später noch hinzugefügt werden (onpage ohne verlinkung auf eine unterseite)
 
@@ -38,7 +38,7 @@ Sobald du dich auf github Desktop angemeldet hast, navigiere zur Github Website 
 Danach öffnest du deine CMD in deinem Projekt ordner und führst folgenden befehl aus:
 
 ```bash
-    git init
+git init
 ```
 
 *Dieser Befehl initialisiert ein Lokales Git Repository*
@@ -46,13 +46,13 @@ Danach öffnest du deine CMD in deinem Projekt ordner und führst folgenden befe
 Füge nun alle deine Dateien hinzu nutze dafür:
 
 ```bash
-    git add .
+git add .
 ```
     
 Erstelle nun deinen ersten lokalen Commit nutze dafür:
 
 ```bash
-    git commit -m "Deine Commit Message"
+git commit -m "Deine Commit Message"
 ```
 *-m wird hierbei genutzt, um deine Commit message hinzuzufügen. Versuche diese immer möglichst einfach aber verständlich zu benennen. (Bei deinem ersten commit in einem neuen Repository nutzt man "init" als message.)*
     
